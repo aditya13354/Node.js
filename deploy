@@ -1,8 +1,6 @@
--#!/bin/sh      
+ 
 ssh -i mysite.pem ubuntu@35.154.5.81 <<EOF        
- cd /Node.js  
- git pull       
- npm install --production       
- pm2 restart all
- exit       
-EOF
+ cd /home/ubuntu/  
+sudo  git pull       
+sudo  npm install --production       
+sudo  npm start
