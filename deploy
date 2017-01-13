@@ -3,4 +3,4 @@ ssh -i mysite.pem ubuntu@35.154.5.81 <<EOF
  cd /home/ubuntu/Node.js/  
 sudo  git pull origin master
 sudo  npm install --production       
-sudo  npm start
+mocha
